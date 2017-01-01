@@ -1,0 +1,9 @@
+CREATE DATABASE WEBADMIN;
+USE WEBADMIN;
+
+CREATE TABLE `Users` (
+`User_ID` int(11) NOT NULL AUTO_INCREMENT,
+`username` varchar(20) NOT NULL,
+`pwd` varchar(40) NOT NULL,
+PRIMARY KEY (`User_ID`)
+);
